@@ -14,7 +14,7 @@ For the detail fields, yes – they are a Jira Service Management feature an adm
 No. Everything is read in your browser from your Jira site; exports and imports are created and read there. The app stores only its settings (field names, highlighted values, thresholds).
 
 **What does the import change?**
-Only the values of customer and organization detail fields that differ from the file, after you confirm the preview. It never creates or deletes organizations or customers, and you can undo the import.
+The values of customer and organization detail fields that differ from the file, after you confirm the preview – these can be undone. If you tick the options, it also creates organizations named in the file and adds customers (by e-mail) to their organization, creating customer accounts for new e-mails, and can add them to a service project. It never deletes anything.
 
 **Which file formats can I import?**
 The Excel (.xlsx) and CSV files of the Export tab, also after editing them in Excel, Google Sheets, LibreOffice or Numbers. CSV can use commas or semicolons. Files up to 10 MB.
@@ -29,4 +29,4 @@ The directory loads details only for the page you look at; exports and the healt
 Yes – it reads the *Organizations* field of service spaces and the *Organization* field of customer service spaces.
 
 **Are customers without an organization exported?**
-No – Jira offers no way for apps to list them. They do appear on requests they raised.
+Yes, when you export the customers of a service project: they get a row without an organization.

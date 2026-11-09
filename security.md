@@ -16,7 +16,7 @@ We confirm receipt within 2 business days, keep you informed about the fix and c
 ## Architecture
 - The App runs entirely on **Atlassian Forge** ("Runs on Atlassian"): Forge functions, the Forge key-value store and Custom UI. No Forge Remote, no egress to external servers, no vendor-side servers or copies of customer data.
 - The App stores only its settings in each customer's Forge storage, encrypted at rest and in transit by Atlassian. It stores no customer or organization data.
-- Jira Service Management data is read with the signed-in user's permissions in the browser; exports and imports are processed there. The only writes are customer and organization detail field values by the import, after the user confirms a preview, and they can be undone.
+- Jira Service Management data is read with the signed-in user's permissions in the browser; exports and imports are processed there. The only writes are made by the import after the user confirms a preview: detail field values (which can be undone) and, when chosen, new organizations and customers added to organizations and service projects. Nothing is ever deleted.
 - The App requests only the scopes its features need and never asks for passwords or API tokens.
 - The App does not use AI or machine-learning models, and no customer data is processed by such models.
 

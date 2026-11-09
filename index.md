@@ -13,12 +13,12 @@ Jira Service Management lets you add detail fields to customers and organization
 - **Other requests** of the same customer and organization, with open and total counts.
 - **Organization directory** – search by name, filter by any detail field ("Industry contains Finance", "Website is empty"), open a profile with all details, customers and requests.
 - **Export to Excel or CSV** – one row per customer or per organization, with the organization and customer fields you choose and the request counts.
-- **Import from Excel or CSV** – edit the exported file and import it back. You see every change before anything is written, problems are listed per row, and the import can be undone.
+- **Import from Excel or CSV** – edit the exported file and import it back, or create organizations and add customers in bulk. You see every change before anything is written, problems are listed per row, and field changes can be undone.
 
 ## Safe by design
 - All data is read and written **with the user's own permissions**, in the browser – agents see and change only what Jira lets them.
 - The app stores only its settings (which fields to show, highlighted values, health thresholds) – **no customer data**. Exports and imports are processed in the browser.
-- The only changes the app makes are detail field values, by the import, after the user confirms the preview. It never creates or deletes customers or organizations. **Runs on Atlassian.**
+- The app changes Jira only through the import, after the user confirms the preview: detail field values, and – when chosen – new organizations and customers added to organizations and service projects. It never deletes anything. **Runs on Atlassian.**
 
 ## Requirements
 Jira Service Management Cloud. Detail fields need *customer and organization details* to be set up on the site (Jira Service Management settings); without them the app shows names, requests and account health.

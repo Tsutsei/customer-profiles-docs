@@ -40,7 +40,8 @@ On the **Export** tab choose:
 1. **Rows** – one row per customer (organizations without customers get an empty row) or one row per organization with the number of customers.
 2. **Columns** – organization fields, customer fields and the open and total requests of each organization.
 3. **Organizations** – all, or by name and detail field value.
-4. **Format** – Excel (.xlsx, with a bold header, a frozen first row and filters) or CSV (UTF-8).
+4. **Service project** – optionally only the organizations of one service project; one row per customer then also includes the project's customers without an organization.
+5. **Format** – Excel (.xlsx, with a bold header, a frozen first row and filters) or CSV (UTF-8).
 
 Organizations or customers you can't see are skipped and listed in a message.
 
@@ -50,7 +51,14 @@ Organizations or customers you can't see are skipped and listed in a message.
 3. On the **Import** tab choose the file and **Check the file**. The preview lists every change (now → new, and the rows of the file) and the problems per row – an organization that doesn't exist, a value that isn't an option of a select field, a customer who isn't in the organization, or different values for the same field in repeated rows.
 4. **Apply** writes the changes with your permissions; each change gets ✓ or ✗. **Undo this import** puts the previous values back (until you leave the page), and **Download the change log** saves a CSV of what changed.
 
-Empty cells leave the value as it is. Tick *Empty cells clear the value* to clear fields with empty cells. Multi-select values are separated by commas, as in the export. The import changes detail field values only; it never creates or deletes organizations or customers.
+Empty cells leave the value as it is. Tick *Empty cells clear the value* to clear fields with empty cells. Multi-select values are separated by commas, as in the export.
+
+### Creating organizations and adding customers
+- **Create missing organizations** – rows with an organization name (and no Organization ID) that doesn't exist yet create the organization, with the detail fields of the row.
+- **Add missing customers to their organization** – e-mails that aren't customers of the row's organization are added to it. An existing account with that e-mail is used; otherwise a new customer account is created with the name from the *Customer* column.
+- **Also add to a service project** – new organizations and added customers are also added to the chosen service project, so they can raise requests there.
+
+The preview lists every organization to create and every customer to add. Field changes can be undone; created organizations and added customers stay (remove them in Jira if needed). The import never deletes anything.
 
 ## Settings (Jira administrators)
 On the **Request panel settings** tab:

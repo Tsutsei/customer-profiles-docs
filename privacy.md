@@ -14,7 +14,7 @@ Only its **settings**, saved by Jira administrators: the names of the detail fie
 ## 2. What the App reads and changes
 To show profiles, account health, the directory and exports, the App reads customers, organizations, their detail fields and requests (status, dates, SLAs, satisfaction ratings) **in the user's browser, with that user's permissions**. This data is shown to the user and, for exports, saved as a file by the user; it is never sent to or stored by the App's backend.
 
-The import reads a file chosen by the user **in the browser** and, after the user confirms the preview, sets customer and organization detail field values in Jira with the user's permissions. The file is not uploaded or stored. The change log is created in the browser and downloaded by the user.
+The import reads a file chosen by the user **in the browser** and, after the user confirms the preview, sets customer and organization detail field values in Jira with the user's permissions and, when the user chooses it, creates organizations, adds customers to organizations and service projects, and creates customer accounts (e-mail and name from the file). The file is not uploaded or stored. The change log is created in the browser and downloaded by the user.
 
 ## 3. Where the data is stored
 Settings are stored in Atlassian's infrastructure (Forge Key-Value Store) and inherit Atlassian's data residency. The App does not send data to any server outside Atlassian, and we (the vendor) have no access to it.
