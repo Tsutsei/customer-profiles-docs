@@ -1,0 +1,8 @@
+title: Customer Profiles for Jira Service Management
+description: Customer and organization profiles on every request, account health, organization directory and Excel export and import for Jira Service Management – user guide, FAQ, privacy, terms and support.
+theme: minima
+header_pages:
+  - index.md
+  - guide.md
+  - faq.md
+  - support.md
