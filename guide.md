@@ -8,7 +8,7 @@ permalink: /guide/
 Customer Profiles shows the native **customer and organization details** of Jira Service Management. A Jira administrator adds the fields (for example *Industry*, *Customer Segment*, *Phone*, *Region*) in Jira Service Management settings and agents fill them in on the customer or organization page – or in bulk with the [import](#import-from-excel-or-csv).
 
 ## The customer profile on a request
-Open a request and the **Customer profile** panel. (If you don't see it, choose the *Apps* button below the request summary and select *Customer profile*.)
+Every request has a **Customer profile** panel on the right, below the request details – expand it to see the profile. For a wider view, choose the *Apps* button below the request summary and select *Customer profile*: the panel is then shown below the description of that request.
 
 - **Customer** – the reporter's name, e-mail and detail fields.
 - **Organization** – one card for each organization the request is shared with, and *Open profile* to see the whole organization.
