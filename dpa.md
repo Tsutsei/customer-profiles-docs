@@ -6,7 +6,7 @@ permalink: /dpa/
 
 _Last updated: 9 November 2026_
 
-This Data Processing Addendum ("DPA") forms part of the [Terms of use]({{ '/terms/' | relative_url }}) between the customer installing **Customer Profiles for Jira Service Management** ("Customer", controller) and **Bc. Tomáš Buchta, sole trader, IČO 21540951, 30. dubna 2307/12, 702 00 Ostrava, Czech Republic** ("Vendor", processor), and applies to personal data processed by the App under Article 28 of the GDPR.
+This Data Processing Addendum ("DPA") forms part of the [Terms of use]({{ '/terms/' | relative_url }}) between the customer installing **Customer Profiles for Jira Service Management** ("Customer", controller) and **Tsutsei Software**, a brand of the sole trader identified on the [Legal information](https://tsutsei-software.com/legal.html) page ("Vendor", processor), and applies to personal data processed by the App under Article 28 of the GDPR.
 
 1. **Subject matter and duration.** Displaying, exporting and importing the Customer's Jira Service Management customer and organization data in the user's browser, and storing the App's settings, for as long as the App is installed.
 2. **Nature and purpose.** Reading customers, organizations, their detail fields and requests with the user's permissions to show profiles, account health, the directory and exports; setting detail field values, creating organizations and customers and adding customers to organizations and service projects from a file the user imports and confirms. Storage of settings (field names, highlighted values, thresholds) solely to provide the App's functionality.

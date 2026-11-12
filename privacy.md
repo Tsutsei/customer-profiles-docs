@@ -6,7 +6,7 @@ permalink: /privacy/
 
 _Last updated: 9 November 2026_
 
-This policy describes how the Atlassian Marketplace app "Customer Profiles for Jira Service Management" (the "App") processes data. The App is provided by **Bc. Tomáš Buchta, sole trader, Company ID (IČO) 21540951, registered office 30. dubna 2307/12, 702 00 Ostrava, Czech Republic** ("we"). Contact: **[support@tsutsei-support.atlassian.net](mailto:support@tsutsei-support.atlassian.net)**.
+This policy describes how the Atlassian Marketplace app "Customer Profiles for Jira Service Management" (the "App") processes data. The App is provided by **Tsutsei Software**, a brand of the sole trader identified on the [Legal information](https://tsutsei-software.com/legal.html) page ("we"). Contact: **[support@tsutsei-support.atlassian.net](mailto:support@tsutsei-support.atlassian.net)**.
 
 ## 1. What the App stores
 Only its **settings**, saved by Jira administrators: the names of the detail fields shown on requests and their order, highlighted field values (for example "Customer Segment = Enterprise"), account health thresholds and on/off switches. The App stores **no customer or organization data** and **no account IDs, names or e-mail addresses**.
